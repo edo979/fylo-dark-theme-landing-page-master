@@ -1,0 +1,52 @@
+.card {
+  text-align: left;
+
+  &_img-container {
+    padding-inline: 15px;
+    margin-bottom: 3rem;
+  }
+
+  &_body {
+    > * + * {
+      margin-top: 18px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+    p {
+      padding-inline: 5px;
+    }
+  }
+
+  &_link {
+    position: relative;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: $Cyan;
+      font-size: 0.9rem;
+    }
+
+    &-icon-container {
+      width: 12px;
+      margin-left: 7px;
+
+      svg path {
+        fill: $Cyan;
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 135px;
+      left: 0;
+      bottom: -2px;
+
+      background-color: $Cyan;
+    }
+  }
+}

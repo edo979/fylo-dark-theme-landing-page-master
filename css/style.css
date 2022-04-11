@@ -109,7 +109,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 1.25rem;
+  font-size: 1.23rem;
 }
 
 .flow > * + * {
@@ -122,6 +122,10 @@ h2,
 
 .mt-130px {
   margin-top: 130px;
+}
+
+.mt-160px {
+  margin-top: 160px;
 }
 
 .flex {
@@ -203,6 +207,48 @@ body {
 }
 .boxes_box h2 {
   margin: 34px 0 8px;
+}
+
+.card {
+  text-align: left;
+}
+.card_img-container {
+  padding-inline: 15px;
+  margin-bottom: 3rem;
+}
+.card_body > * + * {
+  margin-top: 18px;
+}
+.card_body h2 {
+  text-align: center;
+}
+.card_body p {
+  padding-inline: 5px;
+}
+.card_link {
+  position: relative;
+}
+.card_link a {
+  display: block;
+  text-decoration: none;
+  color: #65e2d9;
+  font-size: 0.9rem;
+}
+.card_link-icon-container {
+  width: 12px;
+  margin-left: 7px;
+}
+.card_link-icon-container svg path {
+  fill: #65e2d9;
+}
+.card_link::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 135px;
+  left: 0;
+  bottom: -2px;
+  background-color: #65e2d9;
 }
 
 /*# sourceMappingURL=style.css.map */
