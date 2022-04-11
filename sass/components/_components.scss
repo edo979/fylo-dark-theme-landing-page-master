@@ -5,34 +5,6 @@ body {
   text-align: center;
 }
 
-.flow {
-  > * + * {
-    margin-top: 1.5rem;
-  }
-}
-
-.mt-35px {
-  margin-top: 35px;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-
-  &-justify-sb {
-    justify-content: space-between;
-  }
-}
-
-.container,
-.grid-container {
-  width: max(335px, 85vw);
-  margin-inline: auto;
-}
-
-.grid-container {
-  display: grid;
-}
-
 @import 'nav';
 @import 'header';
+@import 'buttons';
