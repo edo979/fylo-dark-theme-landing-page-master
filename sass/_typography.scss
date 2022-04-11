@@ -4,7 +4,7 @@
   --fs-100: 0.8rem;
   --fs-200: 0.85rem;
   --fs-300: 0.9rem;
-  --fs-400: 1rem;
+  --fs-400: 0.97rem;
   --fs-500: 1.05rem;
 }
 
@@ -27,4 +27,9 @@ h3,
 
 p {
   font-size: var(--fs-400);
+}
+
+h1,
+.h1 {
+  font-size: 1.67rem;
 }
