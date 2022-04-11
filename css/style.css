@@ -164,4 +164,14 @@ body {
   padding-inline: 10px;
 }
 
+.btn {
+  padding: 17px 80px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  line-height: 1;
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,11 @@
+.btn {
+  padding: 17px 80px;
+  border: none;
+  border-radius: 25px;
 
+  color: $White;
+  font-weight: 700;
+  line-height: 1;
+
+  background-image: linear-gradient(to right, $Cyan, $Blue);
+}
