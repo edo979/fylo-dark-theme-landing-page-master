@@ -1,0 +1,26 @@
+body {
+  background-color: $Dark-Blue-400;
+  color: $White;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+  &-justify-sb {
+    justify-content: space-between;
+  }
+}
+
+.container,
+.grid-container {
+  width: max(335px, 85vw);
+  margin-inline: auto;
+}
+
+.grid-container {
+  display: grid;
+}
+
+@import 'nav';
+@import 'header';

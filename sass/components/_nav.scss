@@ -1,0 +1,17 @@
+.top-nav {
+  margin-top: 23px;
+
+  &_logo {
+    width: 80px;
+  }
+
+  &_link {
+    text-decoration: none;
+    color: $cl-text-neutral;
+    font-size: var(--fs-300);
+
+    & + & {
+      margin-left: 23px;
+    }
+  }
+}

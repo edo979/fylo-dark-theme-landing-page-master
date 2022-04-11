@@ -102,4 +102,42 @@ p {
   font-size: var(--fs-400);
 }
 
+body {
+  background-color: #181f2a;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-justify-sb {
+  justify-content: space-between;
+}
+
+.container,
+.grid-container {
+  width: max(335px, 85vw);
+  margin-inline: auto;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.top-nav {
+  margin-top: 23px;
+}
+.top-nav_logo {
+  width: 80px;
+}
+.top-nav_link {
+  text-decoration: none;
+  color: #a6a6a6;
+  font-size: var(--fs-300);
+}
+.top-nav_link + .top-nav_link {
+  margin-left: 23px;
+}
+
 /*# sourceMappingURL=style.css.map */
