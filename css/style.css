@@ -107,12 +107,21 @@ h1,
   font-size: 1.67rem;
 }
 
+h2,
+.h2 {
+  font-size: 1.25rem;
+}
+
 .flow > * + * {
   margin-top: 1.5rem;
 }
 
 .mt-35px {
   margin-top: 35px;
+}
+
+.mt-130px {
+  margin-top: 130px;
 }
 
 .flex {
@@ -172,6 +181,28 @@ body {
   font-weight: 700;
   line-height: 1;
   background-image: linear-gradient(to right, #65e2d9, #339ecc);
+}
+
+.boxes_box + .boxes_box {
+  margin-top: 85px;
+}
+.boxes_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxes_box img {
+  max-width: 65px;
+}
+.boxes_box p {
+  padding-inline: 10px;
+  line-height: 1.6;
+}
+.boxes_box#box-security img {
+  height: 66px;
+}
+.boxes_box h2 {
+  margin: 34px 0 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
