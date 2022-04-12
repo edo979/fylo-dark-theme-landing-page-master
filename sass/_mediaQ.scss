@@ -54,6 +54,9 @@
   .card_img-container {
     margin: 0;
   }
+  .card_body {
+    align-self: center;
+  }
 
   .bg-boxes {
     > * + * {
@@ -64,9 +67,11 @@
   }
 
   .nav {
+    margin-block: 0;
+
     > ul + ul {
       margin: 0;
-      margin-left: 2rem;
+      margin-left: 3rem;
     }
 
     ul {
