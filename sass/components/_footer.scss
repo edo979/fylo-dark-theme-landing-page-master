@@ -1,6 +1,97 @@
 .footer {
   margin-top: -180px;
-  padding-top: 250px;
+  padding-top: 255px;
 
   background-color: $Dark-Blue-300;
+
+  &_logo {
+    margin-bottom: 40px;
+  }
+
+  address {
+    text-align: left;
+    font-style: normal;
+
+    .flex {
+      align-items: start;
+      img {
+        margin-top: 7px;
+      }
+    }
+  }
+
+  &_contact,
+  &_contact div:last-child {
+    margin-top: 20px;
+  }
+
+  &_contact {
+    div:first-child {
+      img {
+        height: 13px;
+      }
+    }
+  }
+
+  .flex {
+    gap: 20px;
+  }
+}
+
+.nav_link,
+.footer_addres-text {
+  font-size: 1.15rem;
+}
+
+.nav {
+  ul + ul {
+    margin-top: 45px;
+  }
+
+  &_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+
+    > li + li {
+      margin-top: 1rem;
+    }
+  }
+
+  &_link {
+    text-decoration: none;
+    color: $cl-text-neutral-200;
+  }
+}
+
+.social {
+  margin-inline: auto;
+  margin-bottom: 3rem;
+
+  div:first-child {
+    svg {
+      height: 12px;
+    }
+  }
+
+  &_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 27px;
+    height: 27px;
+
+    padding: 6px;
+
+    border: 1px solid $White;
+    border-radius: 50%;
+  }
+
+  svg {
+    path {
+      fill: $White;
+    }
+  }
 }

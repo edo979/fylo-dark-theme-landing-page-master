@@ -147,6 +147,10 @@ h2,
   display: grid;
 }
 
+.gap-70 {
+  gap: 80px;
+}
+
 body {
   background-color: #181f2a;
   color: white;
@@ -332,8 +336,73 @@ body {
 
 .footer {
   margin-top: -180px;
-  padding-top: 250px;
+  padding-top: 255px;
   background-color: #0b1523;
+}
+.footer_logo {
+  margin-bottom: 40px;
+}
+.footer address {
+  text-align: left;
+  font-style: normal;
+}
+.footer address .flex {
+  align-items: start;
+}
+.footer address .flex img {
+  margin-top: 7px;
+}
+.footer_contact, .footer_contact div:last-child {
+  margin-top: 20px;
+}
+.footer_contact div:first-child img {
+  height: 13px;
+}
+.footer .flex {
+  gap: 20px;
+}
+
+.nav_link,
+.footer_addres-text {
+  font-size: 1.15rem;
+}
+
+.nav ul + ul {
+  margin-top: 45px;
+}
+.nav_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.nav_list > li + li {
+  margin-top: 1rem;
+}
+.nav_link {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.social {
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
+.social div:first-child svg {
+  height: 12px;
+}
+.social_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 27px;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.social svg path {
+  fill: white;
 }
 
 /*# sourceMappingURL=style.css.map */
