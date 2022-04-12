@@ -260,6 +260,33 @@ body {
   font-size: 0.6rem;
 }
 
+.cta {
+  padding: 40px 30px;
+  border-radius: 10px;
+  background-color: #1c2431;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+}
+.cta p {
+  margin: 15px 0 35px;
+}
+.cta .btn,
+.cta input {
+  width: 100%;
+}
+.cta .btn {
+  margin-top: 25px;
+  padding-inline: 20px;
+}
+.cta input {
+  border-radius: 30px;
+  padding: 10px 30px;
+  line-height: 2;
+}
+.cta input::placeholder {
+  font-size: 0.745rem;
+  color: #bfbfbf;
+}
+
 .card {
   text-align: left;
 }
