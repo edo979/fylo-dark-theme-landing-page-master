@@ -209,6 +209,54 @@ body {
   margin: 34px 0 8px;
 }
 
+.bg-boxes {
+  position: relative;
+  padding: 10px 25px;
+  text-align: left;
+}
+.bg-boxes::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  top: -6px;
+  left: 30px;
+  z-index: -1;
+  background-image: url(../images/bg-quotes.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-boxes > * + * {
+  margin-top: 25px;
+}
+.bg-boxes_box {
+  padding: 25px 20px 20px;
+  border-radius: 5px;
+  background-color: #202a3c;
+}
+.bg-boxes_box p {
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+.author {
+  margin-top: 1rem;
+}
+.author img {
+  width: 25px;
+  border-radius: 50%;
+}
+.author_data {
+  margin-left: 8px;
+}
+.author_data p:first-child {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.author_data p:last-child {
+  font-size: 0.6rem;
+}
+
 .card {
   text-align: left;
 }
