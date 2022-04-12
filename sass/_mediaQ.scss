@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+  // Layout
+  .grid-container {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .md\:col-12 {
+    grid-column: span 12;
+  }
+  .md\:col-8 {
+    grid-column: span 8;
+  }
+  .md\:col-7 {
+    grid-column: span 7;
+  }
+  .md\:col-6 {
+    grid-column: span 6;
+  }
+  .md\:col-5 {
+    grid-column: span 5;
+  }
+  .md\:col-4 {
+    grid-column: span 4;
+  }
+  .md\:col-3 {
+    grid-column: span 3;
+  }
+  .md\:col-2 {
+    grid-column: span 2;
+  }
+
+  .md\:col-8-o-2 {
+    grid-column: 3 / span 8;
+  }
+
+  .md\:gap-0 {
+    gap: 0;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  // Components
+  .boxes {
+    &_box + &_box {
+      margin-top: 0;
+    }
+
+    align-items: end;
+    row-gap: 3rem;
+  }
+
+  .card_img-container {
+    margin: 0;
+  }
+
+  .bg-boxes {
+    > * + * {
+      margin-top: 0;
+    }
+
+    column-gap: 1rem;
+  }
+
+  .nav {
+    > ul + ul {
+      margin: 0;
+      margin-left: 2rem;
+    }
+
+    ul {
+      margin-left: auto;
+    }
+  }
+
+  .social {
+    margin-bottom: auto;
+    margin-inline: 0;
+    margin-left: auto;
+  }
+
+  .attribution {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1080px) {
+}

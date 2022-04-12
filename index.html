@@ -36,7 +36,7 @@
     </nav>
 
     <header class="header grid-container">
-      <div class="header_content flow">
+      <div class="header_content md:col-12 flow">
         <img src="images/illustration-intro.png" alt="" />
         <h1 class="mt-35px">
           All your files in one secure location, accessible anywhere.
@@ -50,9 +50,9 @@
       </div>
     </header>
 
-    <main class="main grid-container mt-130px">
-      <section class="boxes">
-        <div class="boxes_box">
+    <main class="main mt-130px">
+      <section class="boxes grid-container">
+        <div class="boxes_box md:col-6">
           <img src="images/icon-access-anywhere.svg" alt="" />
           <h2>Access your files, anywhere</h2>
           <p>
@@ -61,7 +61,7 @@
           </p>
         </div>
 
-        <div class="boxes_box" id="box-security">
+        <div class="boxes_box md:col-6" id="box-security">
           <img src="images/icon-security.svg" alt="" />
           <h2>Security you can trust</h2>
           <p>
@@ -70,7 +70,7 @@
           </p>
         </div>
 
-        <div class="boxes_box">
+        <div class="boxes_box md:col-6">
           <img src="images/icon-collaboration.svg" alt="" />
           <h2>Real-time collaboration</h2>
           <p>
@@ -79,7 +79,7 @@
           </p>
         </div>
 
-        <div class="boxes_box">
+        <div class="boxes_box md:col-6">
           <img src="images/icon-any-file.svg" alt="" />
           <h2>Store any type of file</h2>
           <p>
@@ -91,15 +91,15 @@
       </section>
 
       <section class="card mt-160px">
-        <article>
-          <div class="card_img-container">
+        <article class="grid-container">
+          <div class="card_img-container md:col-6">
             <img
               class="card_img"
               src="images/illustration-stay-productive.png"
               alt=""
             />
           </div>
-          <div class="card_body">
+          <div class="card_body md:col-6">
             <h2>Stay productive, wherever you are</h2>
             <p>
               Never let location be an issue when accessing your files. Fylo has
@@ -124,8 +124,8 @@
         </article>
       </section>
 
-      <section class="bg-boxes mt-160px">
-        <article class="bg-boxes_box">
+      <section class="bg-boxes grid-container mt-160px">
+        <article class="bg-boxes_box md:col-4">
           <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -140,7 +140,7 @@
           </section>
         </article>
 
-        <article class="bg-boxes_box">
+        <article class="bg-boxes_box md:col-4">
           <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -155,7 +155,7 @@
           </section>
         </article>
 
-        <article class="bg-boxes_box">
+        <article class="bg-boxes_box md:col-4">
           <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -171,25 +171,27 @@
         </article>
       </section>
 
-      <section class="cta mt-160px">
-        <h2>Get early access today</h2>
-        <p>
-          It only takes a minute to sign up and our free starter tier is
-          extremely generous. If you have any questions, our support team would
-          be happy to help you.
-        </p>
-        <form>
-          <input type="email" id="email" placeholder="email@example.com" />
-          <button class="btn">Get Started For Free</button>
-        </form>
+      <section class="grid-container mt-160px">
+        <div class="cta md:col-8-o-2">
+          <h2>Get early access today</h2>
+          <p>
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+          <form>
+            <input type="email" id="email" placeholder="email@example.com" />
+            <button class="btn">Get Started For Free</button>
+          </form>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer_content grid-container gap-70">
-        <section class="footer_address-container">
+      <div class="footer_content grid-container gap-80 md:gap-0">
+        <img class="footer_logo md:col-12" src="images/logo.svg" alt="" />
+        <section class="footer_address-container md:col-5">
           <address>
-            <img class="footer_logo" src="images/logo.svg" alt="" />
             <div class="flex">
               <img src="images/icon-location.svg" alt="" />
               <p class="footer_addres-text">
@@ -211,7 +213,7 @@
           </div>
         </section>
 
-        <nav class="nav" aria-label="Secondary">
+        <nav class="nav md:col-4 md:flex" aria-label="Secondary">
           <ul class="nav_list">
             <li class="nav_item">
               <a href="#" class="nav_link">About Us</a>
@@ -240,7 +242,7 @@
           </ul>
         </nav>
 
-        <section class="social flex">
+        <section class="social md:col-3 flex">
           <div>
             <a href="#" class="social_link">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">

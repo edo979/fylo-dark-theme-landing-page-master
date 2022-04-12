@@ -93,6 +93,9 @@
   padding: 40px 30px 37px;
   border-radius: 10px;
 
+  position: relative;
+  z-index: 1;
+
   background-color: $Dark-Blue-500;
 
   box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.35);

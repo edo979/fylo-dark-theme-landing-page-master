@@ -35,6 +35,10 @@
   display: grid;
 }
 
-.gap-70 {
+.content-center {
+  place-content: center;
+}
+
+.gap-80 {
   gap: 80px;
 }
