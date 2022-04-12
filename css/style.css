@@ -100,6 +100,7 @@ h3,
 
 p {
   font-size: var(--fs-400);
+  color: #bfbfbf;
 }
 
 h1,
@@ -240,7 +241,7 @@ body {
 }
 
 .author {
-  margin-top: 1rem;
+  margin-top: 15px;
 }
 .author img {
   width: 25px;
@@ -250,6 +251,8 @@ body {
   margin-left: 8px;
 }
 .author_data p:first-child {
+  line-height: 1.45;
+  color: #dedede;
   font-weight: 700;
   letter-spacing: 0.8px;
 }
