@@ -329,4 +329,10 @@ body {
   background-color: #65e2d9;
 }
 
+.footer {
+  margin-top: -180px;
+  padding-top: 250px;
+  background-color: #0b1523;
+}
+
 /*# sourceMappingURL=style.css.map */
