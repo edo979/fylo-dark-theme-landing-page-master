@@ -261,20 +261,21 @@ body {
 }
 
 .cta {
-  padding: 40px 30px;
+  padding: 40px 30px 37px;
   border-radius: 10px;
   background-color: #1c2431;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
 }
 .cta p {
-  margin: 15px 0 35px;
+  margin: 15px 0 30px;
+  line-height: 1.55;
 }
 .cta .btn,
 .cta input {
   width: 100%;
 }
 .cta .btn {
-  margin-top: 25px;
+  margin-top: 23px;
   padding-inline: 20px;
 }
 .cta input {

@@ -90,7 +90,7 @@
 }
 
 .cta {
-  padding: 40px 30px;
+  padding: 40px 30px 37px;
   border-radius: 10px;
 
   background-color: $Dark-Blue-500;
@@ -98,7 +98,8 @@
   box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.35);
 
   p {
-    margin: 15px 0 35px;
+    margin: 15px 0 30px;
+    line-height: 1.55;
   }
 
   .btn,
@@ -107,7 +108,7 @@
   }
 
   .btn {
-    margin-top: 25px;
+    margin-top: 23px;
     padding-inline: 20px;
   }
 
