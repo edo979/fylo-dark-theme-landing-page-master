@@ -112,7 +112,7 @@
 
   h2,
   .h2 {
-    font-size: 1.23rem;
+    font-size: 1.35rem;
   }
 
   p {
@@ -131,8 +131,16 @@
       height: 55px;
       width: auto;
     }
+
+    &_link {
+      font-size: 1.125rem;
+    }
   }
   .header {
+    &::before {
+      height: 1320px;
+    }
+
     p {
       margin-top: 35px;
       padding-inline: 9rem;
@@ -149,5 +157,49 @@
     font-size: 1.125rem;
     padding: 20px 80px;
     border-radius: 30px;
+  }
+
+  .main {
+    margin-top: 165px;
+  }
+  .boxes {
+    row-gap: 80px;
+    &_box {
+      img {
+        max-width: 90px;
+      }
+      p {
+        padding-inline: 130px;
+      }
+    }
+  }
+
+  #box-security {
+    img {
+      height: 80px !important;
+    }
+  }
+}
+
+.card {
+  margin-top: 130px;
+}
+
+.bg-boxes {
+  gap: 40px;
+  padding: 20px 60px;
+
+  &::before {
+    left: 50px;
+    top: -15px;
+    height: 45px;
+    width: 55px;
+  }
+
+  &_box {
+    padding: 35px 30px 25px;
+    > p {
+      font-size: 1rem;
+    }
   }
 }
