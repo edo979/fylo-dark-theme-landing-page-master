@@ -42,6 +42,11 @@
   }
 
   // Components
+  .top-nav,
+  .header {
+    margin-top: 70px;
+  }
+
   .boxes {
     &_box + &_box {
       margin-top: 0;
@@ -91,4 +96,58 @@
 }
 
 @media (min-width: 1080px) {
+  // Typography
+  :root {
+    --fs-100: 0.8rem;
+    --fs-200: 0.85rem;
+    --fs-300: 0.9rem;
+    --fs-400: 1rem;
+    --fs-500: 1.05rem;
+  }
+
+  h1,
+  .h1 {
+    font-size: 2.75rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 1.23rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  // Layout
+  .grid-container,
+  .container {
+    width: min(1280px, 95vw);
+  }
+
+  //Components
+  .top-nav {
+    &_logo {
+      height: 55px;
+      width: auto;
+    }
+  }
+  .header {
+    p {
+      margin-top: 35px;
+      padding-inline: 9rem;
+      font-size: 1.35rem;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 30px;
+    }
+  }
+
+  .btn {
+    font-size: 1.125rem;
+    padding: 20px 80px;
+    border-radius: 30px;
+  }
 }
