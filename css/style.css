@@ -364,6 +364,15 @@ body {
   bottom: -2px;
   background-color: #65e2d9;
 }
+.card_link:hover a {
+  color: white;
+}
+.card_link:hover::after {
+  background-color: white;
+}
+.card_link:hover svg path {
+  fill: white;
+}
 
 .footer {
   margin-top: -180px;

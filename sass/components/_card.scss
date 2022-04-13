@@ -48,5 +48,17 @@
 
       background-color: $Cyan;
     }
+
+    &:hover {
+      a {
+        color: $White;
+      }
+      &::after {
+        background-color: $White;
+      }
+      svg path {
+        fill: $White;
+      }
+    }
   }
 }
