@@ -203,3 +203,34 @@
     }
   }
 }
+
+.cta {
+  margin-top: 25px;
+  padding-top: 45px;
+
+  h2 {
+    font-size: 2.15rem;
+  }
+
+  p {
+    padding-inline: 80px;
+  }
+
+  form {
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 715px;
+
+    input {
+      padding: 10px 35px;
+      max-width: 480px;
+    }
+
+    .btn {
+      margin: 0;
+      max-width: 200px;
+    }
+  }
+}
