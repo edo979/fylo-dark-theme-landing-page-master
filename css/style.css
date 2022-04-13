@@ -196,6 +196,9 @@ body {
 .header_content {
   padding-inline: 15px;
 }
+.header_content img {
+  margin-inline: auto;
+}
 .header p {
   padding-inline: 10px;
 }
