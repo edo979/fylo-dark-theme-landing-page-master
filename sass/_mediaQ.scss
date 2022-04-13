@@ -125,6 +125,16 @@
     width: min(1280px, 95vw);
   }
 
+  .lg\:col-7 {
+    grid-column: span 7;
+  }
+  .lg\:col-3 {
+    grid-column: span 3;
+  }
+  .lg\:col-2 {
+    grid-column: span 2;
+  }
+
   //Components
   .top-nav {
     &_logo {
@@ -179,58 +189,77 @@
       height: 80px !important;
     }
   }
-}
 
-.card {
-  margin-top: 130px;
-}
-
-.bg-boxes {
-  gap: 40px;
-  padding: 20px 60px;
-
-  &::before {
-    left: 50px;
-    top: -15px;
-    height: 45px;
-    width: 55px;
+  .card {
+    margin-top: 130px;
   }
 
-  &_box {
-    padding: 35px 30px 25px;
-    > p {
-      font-size: 1rem;
-    }
-  }
-}
+  .bg-boxes {
+    gap: 40px;
+    padding: 20px 60px;
 
-.cta {
-  margin-top: 25px;
-  padding-top: 45px;
-
-  h2 {
-    font-size: 2.15rem;
-  }
-
-  p {
-    padding-inline: 80px;
-  }
-
-  form {
-    margin-inline: auto;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    max-width: 715px;
-
-    input {
-      padding: 10px 35px;
-      max-width: 480px;
+    &::before {
+      left: 50px;
+      top: -15px;
+      height: 45px;
+      width: 55px;
     }
 
-    .btn {
+    &_box {
+      padding: 35px 30px 25px;
+      > p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .cta {
+    margin-top: 25px;
+    padding-top: 45px;
+
+    h2 {
+      font-size: 2.15rem;
+    }
+
+    p {
+      padding-inline: 80px;
+    }
+
+    form {
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      max-width: 715px;
+
+      input {
+        padding: 10px 35px;
+        max-width: 480px;
+      }
+
+      .btn {
+        margin: 0;
+        max-width: 200px;
+      }
+    }
+  }
+
+  .footer {
+    &_address-container {
+      display: flex;
+      gap: 80px;
+
+      address {
+        max-width: 380px;
+      }
+    }
+
+    &_contact {
       margin: 0;
-      max-width: 200px;
     }
+  }
+
+  .nav ul:first-child {
+    margin-left: 40px;
   }
 }
