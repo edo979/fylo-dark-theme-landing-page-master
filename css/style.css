@@ -215,6 +215,7 @@ body {
   font-weight: 700;
   line-height: 1;
   background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  cursor: pointer;
 }
 .btn:hover {
   background-image: none;
