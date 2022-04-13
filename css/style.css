@@ -175,6 +175,10 @@ body {
 .top-nav_link + .top-nav_link {
   margin-left: 23px;
 }
+.top-nav_link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 .header {
   margin-top: 50px;
@@ -211,6 +215,10 @@ body {
   font-weight: 700;
   line-height: 1;
   background-image: linear-gradient(to right, #65e2d9, #339ecc);
+}
+.btn:hover {
+  background-image: none;
+  background-color: #65e2d9;
 }
 
 .boxes_box + .boxes_box {
@@ -409,6 +417,10 @@ body {
   text-decoration: none;
   color: #bfbfbf;
 }
+.nav_link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 .social {
   margin-inline: auto;
@@ -426,6 +438,12 @@ body {
   padding: 6px;
   border: 1px solid white;
   border-radius: 50%;
+}
+.social_link:hover {
+  border-color: #65e2d9;
+}
+.social_link:hover svg path {
+  fill: #65e2d9;
 }
 .social svg path {
   fill: white;

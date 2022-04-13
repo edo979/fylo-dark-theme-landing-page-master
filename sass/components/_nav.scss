@@ -13,5 +13,10 @@
     & + & {
       margin-left: 23px;
     }
+
+    &:hover {
+      font-weight: 700;
+      text-decoration: underline;
+    }
   }
 }

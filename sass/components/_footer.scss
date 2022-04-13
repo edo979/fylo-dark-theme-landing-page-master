@@ -64,6 +64,10 @@
   &_link {
     text-decoration: none;
     color: $cl-text-neutral-200;
+    &:hover {
+      font-weight: 700;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -89,6 +93,14 @@
 
     border: 1px solid $White;
     border-radius: 50%;
+
+    &:hover {
+      border-color: $Cyan;
+
+      svg path {
+        fill: $Cyan;
+      }
+    }
   }
 
   svg {

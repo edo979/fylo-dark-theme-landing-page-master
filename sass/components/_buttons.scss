@@ -8,4 +8,9 @@
   line-height: 1;
 
   background-image: linear-gradient(to right, $Cyan, $Blue);
+
+  &:hover {
+    background-image: none;
+    background-color: $Cyan;
+  }
 }
