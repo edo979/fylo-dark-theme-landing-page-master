@@ -645,6 +645,19 @@ body {
   .card {
     margin-top: 130px;
   }
+  .card_body {
+    margin-left: 80px;
+  }
+  .card_body h2 {
+    margin-left: 0;
+    padding-inline-end: 20rem;
+    text-align: left;
+    font-size: 2.15rem;
+  }
+  .card_body p {
+    padding-inline: 0;
+    padding-inline-end: 5rem;
+  }
 
   .bg-boxes {
     gap: 40px;
